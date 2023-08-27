@@ -13,7 +13,7 @@ $("a[href^='#']").click(function (eventInfo) {
   let aHref=eventInfo.target.getAttribute("href");
   var sectionOffset= $(aHref).offset().top;
 
-  $("html,body").animate({scrollTop:sectionOffset},500)
+  $("html,body").animate({scrollTop:sectionOffset},800)
 });
 
 
